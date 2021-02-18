@@ -1,5 +1,5 @@
 import 'package:clima/services/networking.dart';
-import 'package:clima/utilities/location.dart';
+import 'location.dart';
 
 class WeatherModel {
   Future<dynamic> getWeatherData() async {

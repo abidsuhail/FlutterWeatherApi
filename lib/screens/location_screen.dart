@@ -14,7 +14,6 @@ class LocationScreen extends StatefulWidget {
 class _LocationScreenState extends State<LocationScreen> {
   double temp;
   String weatherIcon, weatherMsg, cityName;
-
   void updatedWeatherUI(dynamic weatherData) async {
     setState(() {
       temp = weatherData['main']['temp'];
